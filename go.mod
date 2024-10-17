@@ -1,16 +1,18 @@
 module github.com/gosom/scrapemate
 
-go 1.20
+go 1.22.0
+
+toolchain go1.22.7
 
 require (
 	github.com/PuerkitoBio/goquery v1.9.2
 	github.com/go-playground/validator/v10 v10.20.0
 	github.com/golang/mock v1.6.0
 	github.com/gosom/kit v0.0.0-20230309082109-543b32ac686a
-	github.com/playwright-community/playwright-go v0.4201.1
+	github.com/playwright-community/playwright-go v0.4702.0
 	github.com/stretchr/testify v1.8.4
 	github.com/syndtr/goleveldb v1.0.0
-	golang.org/x/sync v0.7.0
+	golang.org/x/sync v0.8.0
 )
 
 require (
@@ -31,7 +33,7 @@ require (
 	github.com/rs/zerolog v1.32.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/crypto v0.22.0 // indirect
-	golang.org/x/exp v0.0.0-20240416160154-fe59bbe5cc7f // indirect
+	golang.org/x/exp v0.0.0-20241009180824-f66d83c29e7c // indirect
 	golang.org/x/net v0.24.0 // indirect
 	golang.org/x/sys v0.19.0 // indirect
 	golang.org/x/text v0.14.0 // indirect

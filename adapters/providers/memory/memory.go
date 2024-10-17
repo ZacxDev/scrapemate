@@ -3,7 +3,7 @@ package memory
 import (
 	"context"
 
-	"github.com/gosom/scrapemate"
+	"github.com/ZacxDev/scrapemate"
 )
 
 var _ scrapemate.JobProvider = (*memoryProvider)(nil)

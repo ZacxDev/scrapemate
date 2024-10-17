@@ -8,7 +8,7 @@ import (
 	"net/url"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/gosom/scrapemate"
+	"github.com/ZacxDev/scrapemate"
 )
 
 type LoginJob struct {

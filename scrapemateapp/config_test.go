@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gosom/scrapemate"
-	"github.com/gosom/scrapemate/mock"
-	"github.com/gosom/scrapemate/scrapemateapp"
+	"github.com/ZacxDev/scrapemate"
+	"github.com/ZacxDev/scrapemate/mock"
+	"github.com/ZacxDev/scrapemate/scrapemateapp"
 )
 
 func Test_NewConfig(t *testing.T) {

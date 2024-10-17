@@ -5,11 +5,11 @@ import (
 	"encoding/csv"
 	"os"
 
-	"github.com/gosom/scrapemate"
+	"github.com/ZacxDev/scrapemate"
 
-	"github.com/gosom/scrapemate/adapters/writers/csvwriter"
-	"github.com/gosom/scrapemate/quotestoscrapelogin/quotes"
-	"github.com/gosom/scrapemate/scrapemateapp"
+	"github.com/ZacxDev/scrapemate/adapters/writers/csvwriter"
+	"github.com/ZacxDev/scrapemate/quotestoscrapelogin/quotes"
+	"github.com/ZacxDev/scrapemate/scrapemateapp"
 )
 
 func main() {

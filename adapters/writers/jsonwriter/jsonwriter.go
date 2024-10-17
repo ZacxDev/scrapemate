@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/gosom/scrapemate"
+	"github.com/ZacxDev/scrapemate"
 )
 
 var _ scrapemate.ResultWriter = (*jsonWriter)(nil)

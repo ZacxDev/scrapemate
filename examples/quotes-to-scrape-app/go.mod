@@ -1,11 +1,11 @@
-module githbub.com/gosom/scrapemate/quotestoscrapeapp
+module githbub.com/ZacxDev/scrapemate/quotestoscrapeapp
 
 go 1.20
 
 require (
 	github.com/PuerkitoBio/goquery v1.9.2
 	github.com/google/uuid v1.6.0
-	github.com/gosom/scrapemate v0.5.3
+	github.com/ZacxDev/scrapemate v0.5.3
 )
 
 require (
@@ -34,4 +34,4 @@ require (
 	golang.org/x/text v0.14.0 // indirect
 )
 
-replace github.com/gosom/scrapemate => ../../
+replace github.com/ZacxDev/scrapemate => ../../

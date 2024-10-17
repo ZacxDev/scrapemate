@@ -8,8 +8,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gosom/scrapemate"
-	"github.com/gosom/scrapemate/adapters/cache"
+	"github.com/ZacxDev/scrapemate"
+	"github.com/ZacxDev/scrapemate/adapters/cache"
 )
 
 var _ scrapemate.Cacher = (*FileCache)(nil)

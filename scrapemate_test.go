@@ -12,8 +12,8 @@ import (
 
 	"github.com/gosom/kit/logging"
 
-	"github.com/gosom/scrapemate"
-	"github.com/gosom/scrapemate/mock"
+	"github.com/ZacxDev/scrapemate"
+	"github.com/ZacxDev/scrapemate/mock"
 )
 
 type mockedServices struct {

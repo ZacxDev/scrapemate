@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/gosom/scrapemate"
+	"github.com/ZacxDev/scrapemate"
 )
 
 type BookDetailJob struct {

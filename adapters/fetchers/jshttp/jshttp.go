@@ -3,7 +3,7 @@ package jshttp
 import (
 	"context"
 
-	"github.com/gosom/scrapemate"
+	"github.com/ZacxDev/scrapemate"
 	"github.com/playwright-community/playwright-go"
 )
 

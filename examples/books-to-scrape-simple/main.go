@@ -12,13 +12,13 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/gosom/scrapemate"
-	"github.com/gosom/scrapemate/adapters/cache/filecache"
-	"github.com/gosom/scrapemate/adapters/cache/leveldbcache"
-	jsfetcher "github.com/gosom/scrapemate/adapters/fetchers/jshttp"
-	fetcher "github.com/gosom/scrapemate/adapters/fetchers/nethttp"
-	parser "github.com/gosom/scrapemate/adapters/parsers/goqueryparser"
-	provider "github.com/gosom/scrapemate/adapters/providers/memory"
+	"github.com/ZacxDev/scrapemate"
+	"github.com/ZacxDev/scrapemate/adapters/cache/filecache"
+	"github.com/ZacxDev/scrapemate/adapters/cache/leveldbcache"
+	jsfetcher "github.com/ZacxDev/scrapemate/adapters/fetchers/jshttp"
+	fetcher "github.com/ZacxDev/scrapemate/adapters/fetchers/nethttp"
+	parser "github.com/ZacxDev/scrapemate/adapters/parsers/goqueryparser"
+	provider "github.com/ZacxDev/scrapemate/adapters/providers/memory"
 
 	"booktoscrapesimple/bookstoscrape"
 )

@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/gosom/scrapemate"
+	"github.com/ZacxDev/scrapemate"
 )
 
 var _ scrapemate.HTTPFetcher = (*httpFetch)(nil)

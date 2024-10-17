@@ -1,7 +1,7 @@
 # scrapemate
-[![GoDoc](https://godoc.org/github.com/gosom/scrapemate?status.svg)](https://godoc.org/github.com/gosom/scrapemate)
-![build](https://github.com/gosom/scrapemate/actions/workflows/build.yml/badge.svg)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gosom/scrapemate)](https://goreportcard.com/report/github.com/gosom/scrapemate)
+[![GoDoc](https://godoc.org/github.com/ZacxDev/scrapemate?status.svg)](https://godoc.org/github.com/ZacxDev/scrapemate)
+![build](https://github.com/ZacxDev/scrapemate/actions/workflows/build.yml/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ZacxDev/scrapemate)](https://goreportcard.com/report/github.com/ZacxDev/scrapemate)
 
 Scrapemate is a web crawling and scraping framework written in Golang. It is designed to be simple and easy to use, yet powerful enough to handle complex scraping tasks.
 
@@ -23,7 +23,7 @@ Scrapemate is a web crawling and scraping framework written in Golang. It is des
 ## Installation
 
 ```
-go get github.com/gosom/scrapemate
+go get github.com/ZacxDev/scrapemate
 ```
 
 ## Quickstart
@@ -42,9 +42,9 @@ import (
 	"time"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/gosom/scrapemate"
-	"github.com/gosom/scrapemate/adapters/writers/csvwriter"
-	"github.com/gosom/scrapemate/scrapemateapp"
+	"github.com/ZacxDev/scrapemate"
+	"github.com/ZacxDev/scrapemate/adapters/writers/csvwriter"
+	"github.com/ZacxDev/scrapemate/scrapemateapp"
 )
 
 func main() {
@@ -127,11 +127,11 @@ go run main.go 1>countries.csv
 
 ## Documentation
 
-For the High Level API see this [example](https://github.com/gosom/scrapemate/tree/main/examples/quotes-to-scrape-app).
+For the High Level API see this [example](https://github.com/ZacxDev/scrapemate/tree/main/examples/quotes-to-scrape-app).
 
 Read also [how to use high level api](https://blog.gkomninos.com/golang-web-scraping-using-scrapemate)
 
-For the Low Level API see [books.toscrape.com](https://github.com/gosom/scrapemate/tree/main/examples/books-to-scrape-simple)
+For the Low Level API see [books.toscrape.com](https://github.com/ZacxDev/scrapemate/tree/main/examples/books-to-scrape-simple)
 
 Additionally, for low level API you can read [the blogpost](https://blog.gkomninos.com/getting-started-with-web-scraping-using-golang-and-scrapemate)
 
